@@ -1,0 +1,100 @@
+This document provides metadata descriptions for the data in the 'day-wise-state-wise-air-quality-index-aqi-of-major-cities-and-towns-in-india', 'master-data-state-district-and-disease-wise-cases-and-death-reported-due-to-outbreak-of-diseases-as-per-weekly-reports-under-idsp', 'master-data-state-vehicle-class-and-fuel-type-wise-total-number-of-vehicles-registered-in-each-month-in-india', and 'population_projection' tables.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+day-wise-state-wise-air-quality-index-aqi-of-major-cities-and-towns-in-india
+Purpose: This table contains comprehensive daily air quality monitoring data across major cities and towns in India, tracking AQI values, prominent pollutants, and air quality status. It provides crucial environmental health insights for policy making, public health monitoring, and urban planning decisions.
+
+date: The specific date of air quality measurement (format: DD-MM-YYYY)
+
+state: The Indian state where the monitoring station is located
+
+area: The specific city or town being monitored for air quality
+
+number_of_monitoring_stations: Total count of active monitoring stations in the area (absolute number)
+
+prominent_pollutants: Primary pollutants detected (e.g., PM2.5, PM10, O3, CO, SO2)
+
+aqi_value: Air Quality Index numerical value (measured in indices scale)
+
+air_quality_status: Categorical assessment of air quality (Good, Satisfactory, Moderate, Poor, Very Poor, Severe)
+
+unit: Measurement units specification for the data fields
+
+note: Additional contextual information about the measurements and data collection methodology
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+master-data-state-district-and-disease-wise-cases-and-death-reported-due-to-outbreak-of-diseases-as-per-weekly-reports-under-idsp
+Purpose: This table maintains comprehensive disease surveillance data under the Integrated Disease Surveillance Programme (IDSP), tracking disease outbreaks, cases, and deaths across Indian states and districts. It serves as a critical resource for public health monitoring, epidemic response planning, and healthcare resource allocation.
+
+year: The year of disease outbreak reporting
+
+week: The epidemiological week number of the outbreak
+
+outbreak_starting_date: The date when the disease outbreak was first identified
+
+reporting_date: The official date when the outbreak was reported to authorities
+
+state: The Indian state where the disease outbreak occurred
+
+district: The specific district within the state affected by the outbreak
+
+disease_illness_name: The specific disease or illness causing the outbreak (e.g., Food Poisoning, Chickenpox, Hepatitis A)
+
+status: The current status of the outbreak report (typically "Reported")
+
+cases: Total number of confirmed cases reported (absolute number)
+
+deaths: Total number of deaths attributed to the outbreak (absolute number)
+
+unit: Measurement units specification for cases and deaths
+
+note: Additional information about data collection and reporting methodology
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+master-data-state-vehicle-class-and-fuel-type-wise-total-number-of-vehicles-registered-in-each-month-in-india
+Purpose: This table provides detailed vehicle registration data across Indian states, categorized by vehicle class and fuel type. It supports transportation planning, environmental impact assessment, policy formulation for vehicle emissions, and market analysis for automotive industry stakeholders.
+
+
+year: The year of vehicle registration
+
+month: The specific month of vehicle registration
+
+state: The Indian state where vehicles were registered
+
+rto: Regional Transport Office identifier (typically "All Vahan Running Office")
+
+vehicle_class: Category of vehicle registered (e.g., BUS, GOODS CARRIER, M-CYCLE/SCOOTER, MOTOR CAR)
+
+fuel: Type of fuel used by the vehicle (DIESEL, PETROL, ELECTRIC, HYBRID, PURE EV, PETROL/ETHANOL)
+
+value: Number of vehicles registered in the specified category (absolute number)
+
+unit: Measurement unit specification (absolute number)
+
+note: Additional contextual information about the registration data
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+population_projection
+Purpose: This table contains official population projections for Indian states, providing demographic forecasts broken down by gender. It serves as a fundamental resource for government planning, resource allocation, policy development, and socio-economic research across various sectors.
+
+
+year: The projected year for population estimates
+
+month: The specific month of the projection
+
+state: The Indian state for which population is projected
+
+gender: Gender classification (Total, Male, Female)
+
+value: Projected population count (in thousands)
+
+unit: Measurement unit specification (thousands)
+
+note: Additional information about projection methodology and data sources

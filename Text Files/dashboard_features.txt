@@ -1,0 +1,42 @@
+Dashboard Features:
+Modular Design: Organized into four distinct tabs for easy navigation.
+
+Simulated Data: The dashboard generates its own realistic-looking data, making it immediately runnable.
+
+Market Prioritization:
+
+Calculates and displays "Risk Scores" for cities.
+
+Interactive filters for Region, AQI Severity, and Population Density.
+
+Sortable table of cities and their scores.
+
+Bar chart visualizing top cities by risk.
+
+A simulated bubble map to conceptually show city distribution based on risk factors (note: uses pseudo-coordinates due to lack of real geo-data in simulation).
+
+Health Cost Impact:
+
+Estimates city-wise GDP loss based on a proportional allocation of the national burden.
+
+Bar charts for city-level and state-level economic impact.
+
+Competitor Feature Gap Matrix:
+
+Displays a heatmap of features offered by top brands.
+
+Provides a textual summary of identified feature gaps and market opportunities.
+
+Product Requirements Document (PRD) Insights:
+
+Outlines must-have features for Mass, Mid-range, and Premium segments.
+
+Visually links features to target income levels and coverage areas.
+
+Offers downloadable PRD templates in CSV and Markdown formats.
+
+Data Upload: You can upload your own CSV file for city data (with specific column headers: City, State, Region, AQI_Severity, Population_Density, Average_Income_Lakhs) to use your custom dataset.
+
+Download Options: All key dataframes can be downloaded as CSV files.
+
+This dashboard provides a robust foundation for your Air Purifier Market Intelligence Report, offering interactive visualizations and actionable insights for your stakeholders.
